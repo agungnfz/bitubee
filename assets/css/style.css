@@ -709,7 +709,7 @@ margin: 5px 5px 10px 0;
 .header-search {
 display: inline-block;
 float: left;
-margin: 17px 0 0 65px;
+margin: 17px 0 0 50px;
 }
 
 .header-bottom {
@@ -6214,31 +6214,9 @@ overflow: inherit;
 }
 
 
-/* -------------------- */
-
-
-/*      end main        */
-
-
-/* -------------------- */
-
-
-/* -------------------- */
-
-
 /*   PRODUCT STYLE      */
 
-
-/* -------------------- */
-
-
-/* -------------------- */
-
-
 /*      categories      */
-
-
-/* -------------------- */
 
 .categories {
 background: #f5f5f5 none repeat scroll 0 0;
@@ -6254,18 +6232,6 @@ padding-top: 50px;
 
 .categories-grid1 .panel-categories {
 margin: 40px 0 32px;
-}
-
-.categories-grid2 {
-padding-top: 40px;
-}
-
-.categories-grid3 {
-padding-top: 30px;
-}
-
-.categories-grid3 .main-top {
-background: #ffffff none repeat scroll 0 0;
 }
 
 .categories-list1,
@@ -6666,10 +6632,6 @@ display: inline-block;
 margin: 0 0 30px;
 }
 
-.categories-grid2 .products-categories+.panel-categories {
-margin: 0 0 30px;
-}
-
 .view-categories>div {
 background-color: #b0b0b0;
 border-radius: 3px;
@@ -6788,7 +6750,7 @@ text-align: center;
 }
 
 .categories-page .img-product a {
-background-color: rgba(252, 165, 60, 0.78);
+background-color: rgba(0, 99, 147, 0.78);
 color: #fff;
 font-size: 25px;
 left: 50%;
@@ -6909,10 +6871,6 @@ transition: all 0.3s ease-in-out 0s;
 display: none;
 }
 
-.categories.categories-grid3 .sidebar-top {
-display: block;
-}
-
 .categories-grid .product-box {
 width: 25%;
 }
@@ -6920,36 +6878,6 @@ width: 25%;
 .categories-grid .desc-product,
 .categories-grid .write {
 display: none;
-}
-
-.categories-grid3 .sidebar {
-display: inline-block;
-max-width: 0;
-overflow: hidden;
-padding: 0;
-width: 0;
-height: 0;
-}
-
-.categories-grid3 .content-categorise {
--webkit-transition: all 0.3s ease-in-out 0s;
--moz-transition: all 0.3s ease-in-out 0s;
--ms-transition: all 0.3s ease-in-out 0s;
--o-transition: all 0.3s ease-in-out 0s;
-transition: all 0.3s ease-in-out 0s;
-width: 100%;
-}
-
-.categories-grid3 .product-box {
-width: 20%;
-}
-
-.categories-grid2 .breadcrumb-sidebar {
-margin-top: 20px;
-}
-
-.categories-grid2 .panel-categories {
-margin: 45px 0 30px;
 }
 
 .categories-list2 .breadcrumb-sidebar {
@@ -10795,10 +10723,6 @@ color: #fff;
   .categories-grid .breadcrumb-wrap,
   .categories-list .breadcrumb-wrap {
     margin: 20px 0 0;
-  }
-
-  .categories.categories-grid3 .sidebar-top {
-    padding: 0 20px;
   }
 
   .banner-absolutes .banner-absolute {
